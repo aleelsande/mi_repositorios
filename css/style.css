@@ -1,0 +1,223 @@
+/*estilos titulos*/
+@font-face {
+    font-family: monkey;
+    src: url(../fuentes/MONKEY.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6f7c89;
+    background-image: url(https://bloquescando.com/wp-content/uploads/2015/06/madera-1920.jpg);
+    background-repeat: no-repeat;
+    /*es para que no se repita la imagen*/
+    background-position: center;
+    /*es para centrar la imagen*/
+    background-size: cover;
+    /*agranda y ocupa el contenido*/
+    font-family: 'Edu NSW ACT Foundation', cursiva;
+}
+
+h1 {
+    color: #080808;
+    background-color: rgba(228, 233, 191, 0.808);
+    font-size: 40px;
+    text-align: center;
+    font-family: monkey;
+    border: outset 5px #053f7e;
+}
+
+h2 {
+    color: #080808;
+    background-color: rgba(228, 233, 191, 0.849);
+    font-size: 40px;
+    text-align: center;
+    font-family: monkey;
+    border: outset 5px #053f7e;
+}
+
+
+.promociones {
+    border: outset 5px #053f7e;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    background-color: rgba(206, 209, 180, 0.774);
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    overflow: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.producto {
+    border: outset 5px #053f7e;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    background-color: rgba(204, 209, 180, 0.904);
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    overflow: auto;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.medida {
+    display: flex;
+    overflow: auto;
+}
+
+.medida_caja {
+    border: outset 5px #053f7e;
+    padding: 5px;
+    display: inline-block;
+    font-size: 32px;
+    background-color: rgba(249, 250, 204, 0.705);
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.medida_p {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.destacados {
+    display: flex;
+    overflow: auto;
+
+}
+
+.fotosinicio {
+    display: flex;
+    background-color: rgba(208, 206, 181, 0.733);
+    width: 810px;
+    height: 510px;
+    margin: 10px;
+    padding: 10px;
+    border: ridge 3px rebeccapurple;
+}
+
+.botonwpp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.botontel {
+    position: fixed;
+    bottom: 85px;
+    right: 20px;
+}
+
+.botoninsta {
+    position: fixed;
+    bottom: 152px;
+    right: 20px;
+}
+
+.botonface {
+    position: fixed;
+    bottom: 218px;
+    right: 20px;
+}
+
+header {
+    background-color: #f5f7bd;
+    border: outset 5px #053f7e;
+    height: 80px;
+    /*width: 100%;*/
+    overflow: hidden;
+    position: sticky;
+    top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header_pepita {
+    margin: 0px;
+    border: none;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    /*center, right, left*/
+    width: 600px;
+    height: 30;
+    font-size: 40px;
+    font-family: "monkey";
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    float: left;
+
+}
+
+.somos {
+    display: inline-block;
+}
+
+.somos_parrafo {
+    font-size: 30px;
+    margin: 30px;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.247);
+
+}
+
+.somos_imagen {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin: 30px;
+}
+
+.sucursales {
+    display: flex;
+    width: 550px;
+    margin: 30px;
+    background-color: #f5f7bd75;
+    border: outset 5px #053f7e;
+
+}
+
+.sucursales_p1 {
+    margin: 10px;
+
+}
+
+.caja_sucursales {
+    display: inline-block;
+    overflow: auto;
+
+}
